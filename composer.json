@@ -1,5 +1,12 @@
 {
     "require": {
-        "michelf/php-markdown": "^1.7"
+        "michelf/php-markdown": "^1.7",
+        "slim/slim": "^3.8",
+        "slim/php-view": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "classes/"
+        }
     }
 }
